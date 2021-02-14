@@ -1,0 +1,47 @@
+{
+"err": {
+    "prefix": "err",
+    "body": [
+        "if(err){console.log('${1:message}'); return}"
+    ]
+},
+
+"con": {
+    "prefix": "con",
+    "body": [
+        "console.log('${1:message}')"
+    ]
+},
+
+"get": {
+    "prefix": "get",
+    "body": [
+        "app.get(\"/${1:route}\", (req, res) => {",
+        "",
+        "})"
+    ]
+},
+
+
+
+"post": {
+    "prefix": "post",
+    "body": [
+        "app.post(\"/${1:route}\", (req, res) => {",
+        "",
+        "})"
+    ]
+},
+
+"try": {
+    "prefix": "try",
+    "body": [
+        "try{",
+        "\t",
+        "}catch(err){",
+        "\tif(err){console.log(\"${1:message}\"); return}",
+        "\tconsole.log(\"${2:message}\")",
+        "}"
+        ]
+    }
+}
