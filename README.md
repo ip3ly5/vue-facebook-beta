@@ -12,3 +12,6 @@ enter
 nodemon server.js
 
 visit 127.0.0.1:8080 in browser
+
+![Login page](https://github.com/ip3ly5/vue-facebook-beta/blob/master/screenshots/login.PNG)
+![Home page](https://github.com/ip3ly5/vue-facebook-beta/blob/master/screenshots/home.PNG)
